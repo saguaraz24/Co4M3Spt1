@@ -1,0 +1,4 @@
+import path from 'path';
+
+const dir = path.dirname('/usr/local/bin/node');
+console.log('Directorio base:', dir);  // Salida: '/usr/local/bin'

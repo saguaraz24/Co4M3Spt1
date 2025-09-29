@@ -1,0 +1,11 @@
+// Ruta GET con parámetro de ruta 
+// Solicitud: http://localhost:3000/user/123 app.get('/user/:id', (req, res) => { 
+const userId = req.params.id; 
+res.send(`Perfil del usuario con ID: ${userId}`); 
+}); 
+// Ruta GET con múltiples parámetros 
+// Solicitud: http://localhost:3000/product/electronics/456 
+app.get('/product/:category/:id', (req, res) => { 
+}); 
+const { category, id } = req.params; 
+res.send(Categoría: ${category}, ID del producto: ${id}`); 
