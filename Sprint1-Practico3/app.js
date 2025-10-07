@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
 res.send('¡Hola, mundo!'); 
 }); 
 // Iniciar el servidor 
-app.listen(PORT, () 
-=> > { 
+app.listen(PORT, ()=>  { 
 console.log(`Servidor corriendo en http://localhost:${PORT}`); 
 }); 
+
